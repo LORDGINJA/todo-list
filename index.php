@@ -27,10 +27,7 @@
 								//gets the row's data
 								$task_name = $row['task'];
 								//echoes out the name and data
-								echo '<li>
-								<span>'. $task_name . '</span>
-								<img id="' . $task_id . '" class="delete-button" width="10px" src="images/close.svg"/>
-								</li>';
+								echo '<li class="words"><span>'. $task_name . '</span><img id="' . $task_id . '" class="delete-button" width="10px" src="images/close.svg"/></li>';
 							}
 						}
 					}
@@ -38,8 +35,8 @@
 			</ul>
 		</div>
 		<!-- inserts a box for inserting text -->
-		<form class="add-new-task" autocomplete = "off">
-			<input type="text" name="new-task" placeholder="Add new item..."/> 
+		<form class="add-new-task words" autocomplete = "off">
+			<input class="words" type="text" name="new-task" placeholder="Add new item..."/> 
 		</form>
 	</body>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
