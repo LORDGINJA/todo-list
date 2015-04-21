@@ -17,10 +17,7 @@ body{
   	overflow-x: hidden;
 }
 
-.wrap{
-	width: 400px;
-	margin: 0 auto;
-}
+.wrap{}
 
 .task-list{
 	width: 350px;
